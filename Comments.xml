@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Penguin.Cms.Email.Abstractions</name>
+    </assembly>
+    <members>
+        <member name="T:Penguin.Cms.Email.Abstractions.Attributes.EmailHandlerAttribute">
+            <summary>
+            Used to define this method as generating an email upon execution
+            </summary>
+        </member>
+        <member name="P:Penguin.Cms.Email.Abstractions.Attributes.EmailHandlerAttribute.HandlerName">
+            <summary>
+            The name that this method should be given publically
+            </summary>
+        </member>
+        <member name="M:Penguin.Cms.Email.Abstractions.Attributes.EmailHandlerAttribute.#ctor(System.String)">
+            <summary>
+            Constructs a new instance of this attribute
+            </summary>
+            <param name="handlerName">The name that this method should be given publically </param>
+        </member>
+        <member name="T:Penguin.Cms.Email.Abstractions.EmailMessageState">
+            <summary>
+            Represents the sent state of the message, used when queueing
+            </summary>
+        </member>
+        <member name="F:Penguin.Cms.Email.Abstractions.EmailMessageState.Unsent">
+            <summary>
+            No attempt has been made to send the message
+            </summary>
+        </member>
+        <member name="F:Penguin.Cms.Email.Abstractions.EmailMessageState.Success">
+            <summary>
+            The previous attempt to send the message was successful
+            </summary>
+        </member>
+        <member name="F:Penguin.Cms.Email.Abstractions.EmailMessageState.Failure">
+            <summary>
+            The previous attempt to send the message resulted in an error
+            </summary>
+        </member>
+        <member name="F:Penguin.Cms.Email.Abstractions.EmailMessageState.Debug">
+            <summary>
+            The message should not be sent and no attempt has been made
+            </summary>
+        </member>
+        <member name="M:Penguin.Cms.Email.Abstractions.Extensions.IEmailPersistableMessageExtensions.AddBCCRecipients(Penguin.Cms.Email.Abstractions.Interfaces.IPersistableEmailMessage,System.String[])">
+            <summary>
+            Adds BCC recipients to the message
+            </summary>
+            <param name="NewBCCRecipients">The BCC recipients to add</param>
+        </member>
+        <member name="M:Penguin.Cms.Email.Abstractions.Extensions.IEmailPersistableMessageExtensions.AddCCRecipients(Penguin.Cms.Email.Abstractions.Interfaces.IPersistableEmailMessage,System.String[])">
+            <summary>
+            Adds CC recipients to the message
+            </summary>
+            <param name="NewCCRecipients">The CC recipients to add</param>
+        </member>
+        <member name="M:Penguin.Cms.Email.Abstractions.Extensions.IEmailPersistableMessageExtensions.AddRecipients(Penguin.Cms.Email.Abstractions.Interfaces.IPersistableEmailMessage,System.String[])">
+            <summary>
+            Adds new recipients to the message
+            </summary>
+            <param name="NewRecipients">The recipients to add</param>
+        </member>
+        <member name="M:Penguin.Cms.Email.Abstractions.Extensions.IEmailPersistableMessageExtensions.GetBCCRecipients(Penguin.Cms.Email.Abstractions.Interfaces.IPersistableEmailMessage)">
+            <summary>
+            returns the ; delimited list of recipients
+            </summary>
+            <returns>A list of strings representing each BCC recipient</returns>
+        </member>
+        <member name="M:Penguin.Cms.Email.Abstractions.Extensions.IEmailPersistableMessageExtensions.GetCCRecipients(Penguin.Cms.Email.Abstractions.Interfaces.IPersistableEmailMessage)">
+            <summary>
+            returns the ; delimited list of  recipients
+            </summary>
+            <returns>A list of strings representing each BCC recipient</returns>
+        </member>
+        <member name="M:Penguin.Cms.Email.Abstractions.Extensions.IEmailPersistableMessageExtensions.GetRecipients(Penguin.Cms.Email.Abstractions.Interfaces.IPersistableEmailMessage)">
+            <summary>
+            returns the ; delimited list of recipients
+            </summary>
+            <returns>A list of strings representing each recipient</returns>
+        </member>
+    </members>
+</doc>
