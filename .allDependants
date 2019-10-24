@@ -1,0 +1,11 @@
+Penguin.Cms.Email
+Penguin.Cms.Email.DependencyInjection
+Penguin.Cms.Email.Repositories
+Penguin.Cms.Email.Templating.Repositories
+Penguin.Cms.Email.Templating
+Penguin.Cms.InternalMessaging.Repositories
+Penguin.Cms.Security
+Penguin.Cms.Security.Repositories
+Penguin.Cms.Web.Security
+Penguin.Cms.Web.Security.Repositories
+Penguin.Cms.Web.Security.Services
