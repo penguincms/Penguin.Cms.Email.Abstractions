@@ -1,11 +1,16 @@
 Penguin.Cms.Email
 Penguin.Cms.Email.DependencyInjection
+Penguin.Cms.Modules.Email
 Penguin.Cms.Email.Repositories
+Penguin.Cms.Workers.Email
 Penguin.Cms.Email.Templating.Repositories
 Penguin.Cms.Email.Templating
 Penguin.Cms.InternalMessaging.Repositories
+Penguin.Cms.Modules.InternalMessaging
+Penguin.Cms.Modules.Forms
 Penguin.Cms.Security
 Penguin.Cms.Security.Repositories
+Penguin.Cms.Modules.Security
 Penguin.Cms.Web.Security
 Penguin.Cms.Web.Security.Repositories
 Penguin.Cms.Web.Security.Services
