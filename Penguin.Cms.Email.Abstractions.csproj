@@ -5,8 +5,10 @@
     <PackageProjectUrl>https://github.com/penguincms/Penguin.Cms.Email.Abstractions</PackageProjectUrl>
     <Version>1.0.0</Version>
     <Description>Not Available</Description>
+    <AssemblyName>Penguin.Cms.Email.Abstractions</AssemblyName>
+    <RootNamespace>Penguin.Cms.Email.Abstractions</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Penguin.Email.Abstractions" Version="1.0.1-T9M1HHH" />
+    <PackageReference Include="Penguin.Email.Abstractions" Version="1.0.1-T9M2XAX" />
   </ItemGroup>
 </Project>
