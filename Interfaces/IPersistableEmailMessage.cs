@@ -4,8 +4,8 @@ namespace Penguin.Cms.Email.Abstractions.Interfaces
 {
     public interface IPersistableEmailMessage : IEmailMessage
     {
-        string BCCRecipients { get; set; }
-        string CCRecipients { get; set; }
-        string Recipients { get; set; }
+        new string BCCRecipients { get; set; }
+        new string CCRecipients { get; set; }
+        new string Recipients { get; set; }
     }
 }
