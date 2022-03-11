@@ -21,8 +21,13 @@
         Failure,
 
         /// <summary>
-        /// The message should not be sent and no attempt has been made
+        /// The message should not be sent for environment reasons and no attempt has been made
         /// </summary>
-        Debug
+        Debug,
+		
+		/// <summary>
+        /// The message should not be sent due to some kind of business logic and no attempt has been made
+        /// </summary>
+		Skip
     }
 }

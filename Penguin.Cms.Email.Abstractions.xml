@@ -42,7 +42,12 @@
         </member>
         <member name="F:Penguin.Cms.Email.Abstractions.EmailMessageState.Debug">
             <summary>
-            The message should not be sent and no attempt has been made
+            The message should not be sent for environment reasons and no attempt has been made
+            </summary>
+        </member>
+        <member name="F:Penguin.Cms.Email.Abstractions.EmailMessageState.Skip">
+            <summary>
+            The message should not be sent due to some kind of business logic and no attempt has been made
             </summary>
         </member>
         <member name="M:Penguin.Cms.Email.Abstractions.Extensions.IEmailPersistableMessageExtensions.AddBCCRecipients(Penguin.Cms.Email.Abstractions.Interfaces.IPersistableEmailMessage,System.String[])">
