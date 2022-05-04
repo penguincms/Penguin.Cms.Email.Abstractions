@@ -24,10 +24,10 @@
         /// The message should not be sent for environment reasons and no attempt has been made
         /// </summary>
         Debug,
-		
-		/// <summary>
+
+        /// <summary>
         /// The message should not be sent due to some kind of business logic and no attempt has been made
         /// </summary>
-		Skip
+        Skip
     }
 }
