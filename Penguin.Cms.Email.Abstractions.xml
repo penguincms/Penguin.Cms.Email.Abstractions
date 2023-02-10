@@ -54,18 +54,21 @@
             <summary>
             Adds BCC recipients to the message
             </summary>
+            <param name="source"></param>
             <param name="NewBCCRecipients">The BCC recipients to add</param>
         </member>
         <member name="M:Penguin.Cms.Email.Abstractions.Extensions.IEmailPersistableMessageExtensions.AddCCRecipients(Penguin.Cms.Email.Abstractions.Interfaces.IPersistableEmailMessage,System.String[])">
             <summary>
             Adds CC recipients to the message
             </summary>
+            <param name="source"></param>
             <param name="NewCCRecipients">The CC recipients to add</param>
         </member>
         <member name="M:Penguin.Cms.Email.Abstractions.Extensions.IEmailPersistableMessageExtensions.AddRecipients(Penguin.Cms.Email.Abstractions.Interfaces.IPersistableEmailMessage,System.String[])">
             <summary>
             Adds new recipients to the message
             </summary>
+            <param name="source"></param>
             <param name="NewRecipients">The recipients to add</param>
         </member>
         <member name="M:Penguin.Cms.Email.Abstractions.Extensions.IEmailPersistableMessageExtensions.GetBCCRecipients(Penguin.Cms.Email.Abstractions.Interfaces.IPersistableEmailMessage)">

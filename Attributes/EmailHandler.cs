@@ -11,7 +11,7 @@ namespace Penguin.Cms.Email.Abstractions.Attributes
         /// <summary>
         /// The name that this method should be given publically
         /// </summary>
-        public string HandlerName { get; set; }
+        public string HandlerName { get; internal set; }
 
         /// <summary>
         /// Constructs a new instance of this attribute
@@ -19,7 +19,7 @@ namespace Penguin.Cms.Email.Abstractions.Attributes
         /// <param name="handlerName">The name that this method should be given publically </param>
         public EmailHandlerAttribute(string handlerName = null)
         {
-            this.HandlerName = handlerName;
+            HandlerName = handlerName;
         }
     }
 }
